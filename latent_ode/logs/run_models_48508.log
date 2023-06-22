@@ -1,0 +1,2 @@
+/Users/githawijbenga/Desktop/latent_ode/run_models.py
+run_models.py --niters 10 --dataset rumour_tweets --latent-ode

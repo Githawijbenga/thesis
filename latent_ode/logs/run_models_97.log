@@ -1,0 +1,58 @@
+/Users/githawijbenga/Desktop/latent_ode/run_models.py
+run_models.py --niters 500 -n 1000 -l 10 --dataset periodic --ode-rnn
+Experiment 97
+Epoch 0001 [Test seq (cond on sampled tp)] | Loss 273.651764 | Likelihood -273.651764 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 279.5607604980469
+Train CE loss (one batch): 0.0
+Test MSE: 0.0555
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 97
+Epoch 0002 [Test seq (cond on sampled tp)] | Loss 155.900055 | Likelihood -155.900055 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 167.0155792236328
+Train CE loss (one batch): 0.0
+Test MSE: 0.0319
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 97
+Epoch 0003 [Test seq (cond on sampled tp)] | Loss 89.117844 | Likelihood -89.117844 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 101.55084991455078
+Train CE loss (one batch): 0.0
+Test MSE: 0.0186
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 97
+Epoch 0004 [Test seq (cond on sampled tp)] | Loss 79.423683 | Likelihood -79.423683 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 87.51908111572266
+Train CE loss (one batch): 0.0
+Test MSE: 0.0166
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 97
+Epoch 0005 [Test seq (cond on sampled tp)] | Loss 77.178825 | Likelihood -77.178825 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 85.79194641113281
+Train CE loss (one batch): 0.0
+Test MSE: 0.0162
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 97
+Epoch 0006 [Test seq (cond on sampled tp)] | Loss 76.433441 | Likelihood -76.433441 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 84.45916748046875
+Train CE loss (one batch): 0.0
+Test MSE: 0.0160
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 97
+Epoch 0007 [Test seq (cond on sampled tp)] | Loss 76.049339 | Likelihood -76.049339 | KL fp 0.0000 | FP STD 0.0000|
+KL coef: 0.0
+Train loss (one batch): 83.53427124023438
+Train CE loss (one batch): 0.0
+Test MSE: 0.0159
+Poisson likelihood: 0.0
+CE loss: 0.0

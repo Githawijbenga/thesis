@@ -1,0 +1,26 @@
+/Users/githawijbenga/Desktop/latent_ode/run_models.py
+run_models.py --niters 500 -n 1000 -s 50 -l 10 --dataset periodic --latent-ode --noise-weight 0.01
+Experiment 68310
+Epoch 0001 [Test seq (cond on sampled tp)] | Loss 2626.262207 | Likelihood -2641.007812 | KL fp 3.1512 | FP STD 0.7786|
+KL coef: 0.0
+Train loss (one batch): 2437.25927734375
+Train CE loss (one batch): 0.0
+Test MSE: 0.5289
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 68310
+Epoch 0002 [Test seq (cond on sampled tp)] | Loss 2374.831787 | Likelihood -2377.587158 | KL fp 4.2749 | FP STD 0.4380|
+KL coef: 0.0
+Train loss (one batch): 2346.31591796875
+Train CE loss (one batch): 0.0
+Test MSE: 0.4763
+Poisson likelihood: 0.0
+CE loss: 0.0
+Experiment 68310
+Epoch 0003 [Test seq (cond on sampled tp)] | Loss 2334.077393 | Likelihood -2335.799805 | KL fp 5.3862 | FP STD 0.4058|
+KL coef: 0.0
+Train loss (one batch): 2331.5322265625
+Train CE loss (one batch): 0.0
+Test MSE: 0.4679
+Poisson likelihood: 0.0
+CE loss: 0.0
