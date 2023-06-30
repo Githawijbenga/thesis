@@ -194,18 +194,19 @@ def parse_datasets(args, device):
 	##################################################################
 	# Twitter Dataset
 
-	dataset_twitter = torch.load('Data/dict_total.pt')
+	#dataset_twitter = torch.load('Data/dict_total.pt')
 	if dataset_name == "rumour_tweets":
-		dataset_obj = RumourTwitter(dataset_twitter)
+		dataset_obj = RumourTwitter('data/dict_total.pt')
 
 		# Shuffle and split
 		train_data, test_data = model_selection.train_test_split(dataset_obj, train_size= 0.8, 
 			random_state = 42, shuffle = True)
 
 		tweet_id, tt, vals, mask, labels = train_data[0]
+		#pdb.set_trace()
 
 		n_samples = len(dataset_obj)
-		input_dim = len(vals)
+		input_dim = vals.size(-1)
 
 		batch_size = min(min(len(train_data), args.batch_size), args.n)
 		data_min, data_max = get_data_min_max_tweet(dataset_obj)
@@ -222,7 +223,8 @@ def parse_datasets(args, device):
 					"test_dataloader": utils.inf_generator(test_dataloader),
 					"input_dim": input_dim,
 					"n_train_batches": len(train_dataloader),
-					"n_test_batches": len(test_dataloader)}
+					"n_test_batches": len(test_dataloader),
+					"n_labels": labels.shape[-1]}
 		
 		return data_objects
 

@@ -1,0 +1,2 @@
+/home/mona/Documents/phd/thesis/latent_ode/run_models.py
+run_models.py --niters 10 -n 999999 -l 20 --dataset rumour_tweets --ode-rnn --rec-dims 40 --rec-layers 3 --gen-layers 3 --units 50 --gru-units 50 --quantization 0.016 --classif

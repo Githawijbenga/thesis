@@ -16,10 +16,9 @@ from torchvision.datasets.utils import download_url
 from lib.utils import get_device
 import pdb
 
-data_dict = torch.load('data/dict_total.pt')
-
 class RumourTwitter(object):
-    def __init__(self, data_dict):
+    def __init__(self, path):
+        data_dict = torch.load(path)
         self.data = data_dict
 
     def __getitem__(self, index):
